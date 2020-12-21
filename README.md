@@ -1,7 +1,7 @@
 # Flutter Socket Client that works in coordinance with Node.js Backend
 
 
-- Node.js Backend Repo Link -> [Node.js Backend Link] (https://github.com/komnatadeveloper/node_for_flutter_socket)
+- Node.js Backend Repo Link -> [Node.js Backend Link](https://github.com/komnatadeveloper/node_for_flutter_socket)
 
 
 

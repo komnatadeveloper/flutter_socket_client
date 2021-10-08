@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' ;
 
+// Models
 import '../../models/class_model.dart';
+
+// Constants
+import '../../constants/constants.dart' as constants;
 
 
 
@@ -43,11 +47,7 @@ class _ConnectionScreenState extends State<ConnectionScreen> {
       //   },
       // );
       socket = io(
-        // 'http://localhost:3000',
-        'http://192.168.1.37:3000',
-        // 'https://efbb76a00324.ngrok.io',
-        // 'https://23c326bd05ad.ngrok.io',
-        // 'https://777e520c9d93.ngrok.io',
+        constants.apiUrl,
         // OptionBuilder()
         //   .setTransports(['websocket']) // for Flutter or Dart VM
         //   .disableAutoConnect()  // disable auto-connection

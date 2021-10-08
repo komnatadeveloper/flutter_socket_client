@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // Screens
 import './screens/connection_screen/connection_screen.dart';
-import './screens/connection_screen/connection_screen2.dart';
+// import './screens/connection_screen/connection_screen2.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,8 +30,9 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ConnectionScreen2(),
       // home: ConnectionScreen2(),
+      home: ConnectionScreen(),
+
     );
   }
 }

@@ -19,7 +19,7 @@ npm run server
 
 then learn your server/computer local ip (e.g.  http://192.168.1.45 or similar, )
 
-then go to file lib/constants/apiURL and update this variable as local ip **with your port number (3000)**. Now you have a basic chat Application with Node.js socket.io and Flutter Mobile Client
+then go to file lib/constants/constants.dart. Find -> apiUrl and update this variable as local ip **with your port number (3000)**. Now you have a basic chat Application with Node.js socket.io and Flutter Mobile Client
 
 
 

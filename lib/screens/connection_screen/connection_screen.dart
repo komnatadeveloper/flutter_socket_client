@@ -55,7 +55,8 @@ class _ConnectionScreenState extends State<ConnectionScreen> {
         //   .build()
         <String, dynamic> {
           'transports':['websocket'],
-          'autoConnect': true
+          'autoConnect': true,
+          'query': {'token': 'THIS IS MY TOKEN FOR AUTHENTICATION'} 
         }
       );
 
@@ -68,6 +69,9 @@ class _ConnectionScreenState extends State<ConnectionScreen> {
       // ) ;
       
       // socket.connect();
+      socket.onError((data) {
+        print('socket.onError -> data -> ' +  data);
+      });
       socket.onConnect((_) {
       print('connect');
       // socket.emit('msg', 'test');
